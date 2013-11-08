@@ -1,0 +1,38 @@
+{
+  "name": "catalyze-node",
+  "version": "0.1.0",
+  "description": "Catalyze.io API SDK for Javascript.",
+  "author": {
+    "name": "Gabriel Boucher",
+    "email": "solidgumby@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curelator/catalyze-node.git"
+  },
+  "bugs": {
+    "url": "http://github.com/curelator/catalyze-node/issues"
+  },
+  "main": "./lib/catalyze-node",
+  "dependencies": {
+    "request": "latest",
+    "underscore": "latest",
+  }
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "catalyze.io",
+    "HIPAA",
+    "REST API"
+  ]
+}
