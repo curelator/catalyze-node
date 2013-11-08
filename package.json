@@ -16,7 +16,7 @@
   "main": "./lib/catalyze-node",
   "dependencies": {
     "request": "latest",
-    "underscore": "latest",
+    "underscore": "latest"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
